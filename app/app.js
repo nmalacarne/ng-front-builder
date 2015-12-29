@@ -1,10 +1,10 @@
 'use strict';
 
-const app = angular.module('frontBuilder', [
+angular.module('frontBuilder', [
   'frontBuilder.home'
-]);
+])
 
-app.config(['$routeProvider', function($routeProvider) {
+.config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/'});
-}]);
+}])
 
