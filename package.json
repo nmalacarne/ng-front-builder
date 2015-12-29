@@ -6,7 +6,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -a localhost -p 8000 -c-1"
+    "start": "http-server app/ -a localhost -p 8000 -c-1"
   },
   "author": "Nicholas Malacarne <nicholas.malacarne@gmail.com>",
   "license": "ISC",
