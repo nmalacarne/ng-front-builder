@@ -1,0 +1,35 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+}
+
+md-toolbar h1 {
+  margin: auto;
+}
+
+md-list .md-button {
+  text-align: left;
+  border-radius: 0;
+  margin: 0 0 0 0;
+  width: 100%;
+  min-height: 50px;
+}
+
+ md-sidenav  md-list {
+  padding: 0px 0px 8px 0px;
+}
+
+md-content {
+  padding: 10px;
+}
