@@ -9,8 +9,15 @@
 
     <script src="bower_components/angular/angular.js"></script>
   </head>
-  <body ng-cloak>
-    <div ng-view></div>
+  <body ng-cloak layout="column">
+    <md-toolbar layout="row">
+      <h1>Front Builder</h1>
+    </md-toolbar>
+
+    <div flex layout="row">
+      <md-sidenav md-is-locked-open="true" class="md-whiteframe-z2"></md-sidenav> 
+      <md-content flex ng-view></md-content>
+    </div>
 
     <!--BOWER-->
     <script src="bower_components/angular-route/angular-route.js"></script>
