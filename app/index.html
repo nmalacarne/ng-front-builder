@@ -6,6 +6,7 @@
     <title>Front Builder</title>
 
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"> 
+    <link rel="stylesheet" href="assets/css/app.css"> 
 
     <script src="bower_components/angular/angular.js"></script>
   </head>
@@ -15,7 +16,9 @@
     </md-toolbar>
 
     <div flex layout="row">
-      <md-sidenav md-is-locked-open="true" class="md-whiteframe-z2"></md-sidenav> 
+      <md-sidenav md-is-locked-open="true" class="md-whiteframe-z2">
+        <fb-nav></fb-nav>
+      </md-sidenav> 
       <md-content flex ng-view></md-content>
     </div>
 
@@ -28,5 +31,6 @@
     <!--LOCAL-->
     <script src="app.js"></script>
     <script src="home/home.js"></script>
+    <script src="navigation/navigation.js"></script>
   </body>
 </html>
