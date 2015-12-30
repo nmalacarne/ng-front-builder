@@ -1,6 +1,9 @@
 'use strict';
 
 angular.module('frontBuilder', [
+  'ngAria',
+  'ngAnimate',
+  'ngMaterial',
   'frontBuilder.home'
 ])
 
