@@ -5,7 +5,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "karma start karma.conf.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server app/ -a localhost -p 8000 -c-1"
   },
   "author": "Nicholas Malacarne <nicholas.malacarne@gmail.com>",
@@ -14,7 +14,6 @@
     "http-server": "^0.8.5"
   },
   "devDependencies": {
-    "angular-mocks": "^1.4.8",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.16",
     "karma-chrome-launcher": "^0.2.2",
